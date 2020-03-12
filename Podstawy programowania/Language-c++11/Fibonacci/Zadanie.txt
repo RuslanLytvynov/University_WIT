@@ -1,0 +1,23 @@
+PL
+
+Ciąg Fibonacciego zaczyna się od wyrazów 0 i 1, a każdy następny jest sumą dwóch poprzednich.
+Napisz program fibonacci, który wczytuje ze standardowego wejścia nieujemną liczbę całkowitą n i drukuje na standardowe wyjście n pierwszych wyrazów ciągu Fibonacciego.
+Program załącza tylko plik nagłówkowy iostream.
+Przykładowe wykonanie
+In: 10 Out: 0 1 1 2 3 5 8 13 21 34
+
+RU
+
+Последовательность Фибоначчи начинается со слов 0 и 1, и каждый последующий является суммой двух предыдущих.
+Напишите программу Фибоначчи, которая считывает неотрицательное целое число n из стандартного ввода и печатает первые n слов последовательности Фибоначчи в стандартный вывод.
+Программа добавляет только заголовочный файл iostream.
+Пример реализации
+Вход: 10 Выход: 0 1 1 2 3 5 8 13 21 34
+
+ENG
+
+The Fibonacci sequence begins with the words 0 and 1, and each subsequent one is the sum of the previous two.
+Write a fibonacci program that reads a non-negative integer n from the standard input and prints the first n words of the Fibonacci sequence to the standard output.
+The program only appends the iostream header file.
+Sample implementation
+In: 10 Out: 0 1 1 2 3 5 8 13 21 34

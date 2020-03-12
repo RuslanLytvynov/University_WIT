@@ -1,0 +1,21 @@
+PL
+	
+	Tri: Liczby trzycyfrowe 
+Napisz program tri wypisujący na standardowe wyjście w kolejności rosnącej wszystkie liczby trzycyfrowe,
+ których cyfra setek to 1, 2, 5, 6, 7, lub 9, cyfra dziesiątek jest potęgą dwójki, cyfra jedności jest parzysta,
+ a suma cyfr dzieli się przez 7. Program wypisuje te liczby przy użyciu odpowiednich pętli i załącza tylko plik nagłówkowy iostream.
+
+RU
+	
+	Tri: трехзначные числа
+Напишите программу tri, которая печатает все трехзначные числа на стандартный вывод в порядке возрастания,
+  цифра в сотне равна 1, 2, 5, 6, 7 или 9, цифра в десятках - это степень двух, цифра в единстве четна,
+  и сумма цифр делится на 7. Программа печатает эти числа, используя соответствующие циклы, и включает только заголовочный файл iostream.
+
+
+ENG
+
+	Tri: Three-digit numbers
+Write a tri program that prints all three-digit numbers to the standard output in ascending order,
+  whose hundred digit is 1, 2, 5, 6, 7, or 9, the tens digit is the power of two, the unity digit is even,
+  and the sum of digits is divided by 7. The program prints these numbers using appropriate loops and only encloses the iostream header file.

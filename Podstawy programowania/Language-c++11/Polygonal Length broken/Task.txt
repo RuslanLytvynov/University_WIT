@@ -1,0 +1,25 @@
+PL
+	Polygonal: Długość łamanej
+Napisz program polygonal obliczający długość łamanej.
+ Program czyta ze standardowego wejścia pary liczb rzeczywistych określające kartezjańskie współrzędne punktów na płaszczyznie.
+ Czyta je do napotkania końca pliku i wypisuje na standardowe wyjście długość łamanej otwartej łączącej te punkty,
+	 od pierwszego do ostatniego. Jeżeli podano tylko jedną parę liczb, program wypisuje zero.
+ Jeżeli nie podano żadnej pary, program nic nie wypisuje. Program załącza tylko pliki nagłówkowe cmath i iostream.
+
+ENG
+
+	Polygonal: Length broken
+Write a polygonal program that calculates the length of a broken line.
+  The program reads from the standard input pairs of real numbers specifying the Cartesian coordinates of points on the plane.
+  Reads them until the end of the file and prints the length of the open broken line connecting these points to the standard output,
+from first to last. If only one pair of numbers is given, the program prints zero.
+  If no pair is given, the program prints nothing. The program only includes cmath and iostream header files.
+
+RU
+	
+Полигональные: длина сломана
+Напишите многоугольную программу, которая вычисляет длину ломаной.
+  Программа считывает из стандартных входных пар вещественные числа, указывающие декартовы координаты точек на плоскости.
+  Читает их до конца файла и печатает длину открытой ломаной линии, соединяющей эти точки со стандартным выводом,
+от первого до последнего. Если задана только одна пара чисел, программа печатает ноль.
+  Если пара не указана, программа ничего не печатает. Программа включает только заголовочные файлы cmath и iostream.
