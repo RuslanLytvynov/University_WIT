@@ -6,7 +6,7 @@ int main()
   int n;
   cin >> n;
 
-  double a = 1, b = 0;
+  int a = 1, b = 0;
   for(int i=0; i<n;i++)
   {
     cout << b << " ";
