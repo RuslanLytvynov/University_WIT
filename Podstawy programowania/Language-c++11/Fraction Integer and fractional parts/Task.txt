@@ -1,0 +1,20 @@
+PL
+
+  4.2.17 Fraction: Część całkowita i ułamkowa
+Napisz funkcję fraction, która przyjmuje nieujemną liczbę rzeczywistą oraz referencje dwóch zmiennych
+rzeczywistych i wpisuje do nich całkowitą oraz ułamkową część podanej liczby. Funkcja powinna być przystosowana do użycia w przykładowym programie poniżej. Funkcja korzysta tylko z pliku nagłówkowego
+cmath
+
+RU
+
+  Фракция: целые и дробные части -
+Напишите функцию дроби, которая принимает неотрицательное действительное число и ссылки на две переменные
+реальные и введите в них общую и дробную часть заданного числа. Функция должна быть адаптирована для использования в примере программы ниже. Функция использует только заголовочный файл
+CMATH
+
+ENG
+
+  Fraction: Integer and fractional parts -
+Write a fraction function that takes a non-negative real number and the references of two variables
+real and enter in them the total and fractional part of the given number. The function should be adapted for use in the sample program below. The function uses only the header file
+cmath
