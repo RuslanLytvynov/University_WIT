@@ -2,7 +2,7 @@
 using namespace std;
 
 int main () {
-	
+
 	double a, b;
 	cin >> a >> b;
 	if (a==10 && b>=30 && b<60)
@@ -13,4 +13,3 @@ int main () {
 	{cout << "true";}
 	else {cout << "false";}
 }
-
