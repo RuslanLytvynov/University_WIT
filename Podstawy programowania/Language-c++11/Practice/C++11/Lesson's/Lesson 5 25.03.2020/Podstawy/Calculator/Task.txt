@@ -1,0 +1,19 @@
+PL
+	Calculator: Kalkulator pięciodziałaniowy 
+ 
+Napisz program calculator wykonujący cztery podstawowe działania arytmetyczne oraz wyciągający pierwiastekkwadratowy.
+Pouruchomieniuprogramwczytujezestandardowegowejścialiczbę 1,2,3,4,lub 5, co odpowiada dodawaniu, odejmowaniu, mnożeniu, dzieleniu i pierwiastkowaniu.
+Następnie wczytuje argumenty wybranego działania i wypisuje na standardowe wyjście jego wynik. Program załącza tylko pliki nagłówkowe cmath i iostream.
+
+RU 
+	Калькулятор: калькулятор с пятью действиями
+Напишите программу калькулятора, которая выполняет четыре основных арифметических действия и извлекает квадратный корень.
+При запуске программа считывает стандартный входной номер 1,2,3,4 или 5, который соответствует сложению, вычитанию, умножению, делению и квадратному корню. 
+Затем считывает аргументы выбранного действия и записывает его результат в стандартный вывод. 
+Программа включает только заголовочные файлы cmath и iostream.
+
+ENG
+	Calculator: Five-action calculator 
+Write a calculator program that performs four basic arithmetic operations and extracts the square root.
+When run, the program reads the standard input number 1,2,3,4, or 5, which corresponds to addition, subtraction, multiplication, division and square root.
+Then reads the arguments of the selected action and writes its result to the standard output. The program only includes cmath and iostream header files.

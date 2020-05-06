@@ -1,0 +1,19 @@
+PL
+Shop: Godziny otwarcia sklepu - bitcoin 
+Pewien sklep jest czynny od 10:30 włącznie do 18:30 wyłącznie. 
+Napisz program shop, który wczytuje ze standardowego wejścia godzinę i minuty, na przykład 11 45 dla 11:45,
+i wypisuje na standardowe wyjście true, jeśli sklep jest wtedy otwarty, albo false jeśli jest zamknięty.
+Program załącza tylko plik nagłówkowy iostream.
+
+RU
+Магазин: часы работы магазина - биткойн
+Определенный магазин открыт только с 10:30 до 18:30.
+Напишите программу магазина, которая читает часы и минуты из стандартного ввода, например 11 45 для 11:45,
+и печатает true, если магазин открыт, или false, если он закрыт.
+Программа добавляет только заголовочный файл iostream.
+ENG
+Shop: Store opening hours - bitcoin
+A certain store is open from 10:30 to 18:30 only.
+Write a shop program that reads the hour and minutes from the standard input, for example 11 45 for 11:45,
+and prints true if the store is open then, or false if it is closed.
+The program only appends the iostream header file.

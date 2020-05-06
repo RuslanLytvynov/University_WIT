@@ -1,0 +1,20 @@
+PL
+
+	Minimum: Najmniejsza liczba 
+Napisz program minimum,
+ który czyta ze standardowego wejścia liczby rzeczywiste do napotkania końca plikuiwypisujenastandardowewyjścienajmniejsząznich.
+Jeżeliniewprowadzonożadnejliczby,program nic nie wypisuje. Program załącza tylko plik nagłówkowy iostream.
+
+ENG
+
+	Minimum: The smallest number
+Write a minimum program
+ that reads from the standard input real numbers to the end of the file and writes the standard output to the smallest number. 
+If no number is entered, the program prints nothing. The program only appends the iostream header file.
+
+RU
+
+	Минимум: наименьшее число
+Напишите минимальную программу,
+ которая считывает из стандартного ввода действительные числа в конец файла и записывает стандартный вывод в наименьшее число.
+Если число не введено, программа ничего не печатает. Программа добавляет только заголовочный файл iostream.
