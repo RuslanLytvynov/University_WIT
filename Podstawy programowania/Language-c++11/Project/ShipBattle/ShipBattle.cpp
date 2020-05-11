@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-const int BOARD_WIDTH = 15;
-const int BOARD_HEIGHT = 10;
-const int SHIP_TYPES = 5;
+const int board_width = 15;
+const int board_height = 10;
+const int ship_types = 5;
 
 const char isWATER = 247; //ASCII Character Code
 const char isHIT = 'X';
@@ -27,10 +27,10 @@ struct SHIP {
 	POINT onGrid[5]; //0-4 max length of biggest ship
 	//Whether or not those points are a "hit"
 	bool hitFlag[5];
-}ship[SHIP_TYPES];
+}ship[ship_types];
 
 struct PLAYER {
-	char grid[BOARD_WIDTH][BOARD_HEIGHT];
+	char grid[board_width][board_height];
 }player[3]; //Ignore player 0, just using player's 1 & 2
 
 enum DIRECTION {HORIZONTAL,VERTICAL};
@@ -59,7 +59,7 @@ int main()
 	for (int aplyr=1; aplyr<3; ++aplyr)
 	{
 		//Loop through each ship type to place
-		for (int thisShip=0; thisShip<SHIP_TYPES; ++thisShip)
+		for (int thisShip=0; thisShip<ship_types; ++thisShip)
 		{
 			//Display gameboard for player
 			system("cls");
@@ -68,7 +68,7 @@ int main()
 			cout << "\n";
 			cout << "INSTRUCTIONS (Player " << aplyr << ")\n\n";
 			cout << "You are about to place your ships.  Format should be:\n";
-			cout << "Facing (0:Horizontal,1:Vertical), X (top-row) coords, Y (left-side) coords\n";
+			cout << "Facing (0:Horizontal, 1:Vertical), X (top-row) coords, Y (left-side) coords\n";
 			cout << "Example: 0 7 2    This would place a ship beginning at X:7 Y:2 going horizontal\n\n";
 			cout << "Ship to place: " << ship[thisShip].name << " which has a length of " << ship[thisShip].length  << "\n";
 			cout << "Where do you want it placed? ";
@@ -155,8 +155,8 @@ bool GameOverCheck(int enemyPLAYER)
 {
 	bool winner = true;
 	//Loop through enemy board
-	for (int w=0; w<BOARD_WIDTH; ++w){
-			for (int h=0; h<BOARD_HEIGHT; ++h){
+	for (int w=0; w<board_width; ++w){
+			for (int h=0; h<board_height; ++h){
 				//If any ships remain, game is NOT over
 				if (player[enemyPLAYER].grid[w][h] = isSHIP)
 					{
@@ -174,8 +174,8 @@ bool UserInputAttack(int& x, int& y, int theplayer)
 	cout << "\nPLAYER " << theplayer << ", ENTER COORDINATES TO ATTACK: ";
 	bool goodInput = false;
 	cin >> x >> y;
-	if (x<0 || x>=BOARD_WIDTH) return goodInput;
-	if (y<0 || y>=BOARD_HEIGHT) return goodInput;
+	if (x<0 || x>=board_width) return goodInput;
+	if (y<0 || y>=board_height) return goodInput;
 	goodInput = true;
 	return goodInput;
 }
@@ -189,8 +189,8 @@ PLACESHIPS UserInputShipPlacement()
 	//Get 3 integers from user
 	cin >> d >> x >> y;
 	if (d!=0 && d!=1) return tmp;
-	if (x<0 || x>=BOARD_WIDTH) return tmp;
-	if (y<0 || y>=BOARD_HEIGHT) return tmp;
+	if (x<0 || x>=board_width) return tmp;
+	if (y<0 || y>=board_height) return tmp;
 	//Good data
 	tmp.direction = (DIRECTION)d;
 	tmp.shipType.onGrid[0].X = x;
@@ -202,7 +202,7 @@ void LoadShips()
 {
 	//Sets the default data for the ships
 	//we plan to include in the game
-	//IMPORTANT!! > MUST MATCH SHIP_TYPES -Default=5 (0-4)
+	//IMPORTANT!! > MUST MATCH ship_types -Default=5 (0-4)
 	ship[0].name = "Cruiser"; ship[0].length = 2;
 	ship[1].name = "Frigate"; ship[1].length = 3;
 	ship[2].name = "Submarine"; ship[2].length = 3;
@@ -215,8 +215,8 @@ void ResetBoard()
 	for (int plyr=1; plyr<3; ++plyr)
 	{
 		//For each grid point, set contents to 'water'
-		for (int w=0; w<BOARD_WIDTH; ++w){
-			for (int h=0; h<BOARD_HEIGHT; ++h){
+		for (int w=0; w<board_width; ++w){
+			for (int h=0; h<board_height; ++h){
 				player[plyr].grid[w][h] = isWATER;
 		}}
 		//Loop back to next player
@@ -228,7 +228,7 @@ void DrawBoard(int thisPlayer)
 	cout << "----------------------\n";
 	//Loop through top row (board_width) and number columns
 	cout << "   ";
-	for (int w=0; w<BOARD_WIDTH; ++w) {
+	for (int w=0; w<board_width; ++w) {
 		if (w < 10)
 			//Numbers only 1 character long, add two spaces after
 			cout << w << "  ";
@@ -237,8 +237,8 @@ void DrawBoard(int thisPlayer)
 			cout << w << " ";}
 	cout << "\n";
 	//Loop through each grid point and display to console
-	for (int h=0; h<BOARD_HEIGHT; ++h){
-		for (int w=0; w<BOARD_WIDTH; ++w){
+	for (int h=0; h<board_height; ++h){
+		for (int w=0; w<board_width; ++w){
 
 			//If this is the FIRST (left) grid point, number the grid first
 			if (w==0) cout << h << " ";
@@ -253,5 +253,5 @@ void DrawBoard(int thisPlayer)
 			else if (gameRunning == true && player[thisPlayer].grid[w][h] == isSHIP)
 			{cout << isWATER << "  ";}
 			//If we have reached the border.. line feed
-			if (w == BOARD_WIDTH-1) cout << "\n";
+			if (w == board_width-1) cout << "\n";
 		}}}
