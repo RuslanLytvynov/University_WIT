@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vector"
+#include <vector>
 
 // std::vector<int>::iterator find(std::vector<int>::iterator b,
 //                     std::vector<int>::iterator e, int n)
@@ -7,8 +7,9 @@ std::vector<int>::iterator find(std::vector<int>::iterator b,
                               std::vector<int>::iterator e, int n){
 for (; b < e; ++b) {
   if (*b == n) {
-  return b;}
-}}
+  return b;}}
+  return e;
+}
 
 int main(){
   std::vector<int> v {-7, 5, 2, 2, 11, 2, 3};
