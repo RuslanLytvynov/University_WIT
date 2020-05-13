@@ -1,8 +1,5 @@
-// #include <iostream>
-//
-// int main() {
-// 	std::cout << initials("John Fitzgerald Kennedy") << std::endl;
-//  std::cout << initials(std::string("andy warhol")) << std::endl; }
+#include <iostream>
+#include <string>
 
 std::string initials(std::string a) {
 	std::string ret;
@@ -20,3 +17,7 @@ std::string initials(std::string a) {
 					ret += a[i + 1];}}}}
 	return ret;
 }
+
+int main() {
+	 std::cout << initials("John Fitzgerald Kennedy") << std::endl;
+   std::cout << initials(std::string("andy warhol")) << std::endl; }
