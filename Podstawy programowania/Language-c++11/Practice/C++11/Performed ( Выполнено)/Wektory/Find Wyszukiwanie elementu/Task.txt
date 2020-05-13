@@ -1,0 +1,4 @@
+Napisz funkcję find, która przyjmuje stałą referencję wektora liczb całkowitych oraz pojedynczą wartość
+całkowitą i zwraca indeks pierwszego wystąpienia tej wartości w wektorze albo długość wektora jeżeli ta
+wartość w nim nie występuje. Funkcja powinna być przystosowana do użycia w przykładowym programie
+poniżej. Funkcja korzysta tylko z pliku nagłówkowego vector.
