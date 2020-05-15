@@ -60,7 +60,7 @@ int main()
 	for (int aplyr = 1; aplyr < 3; ++aplyr)
 	{
 		//Loop through each ship type to place
-		for (int Type_This_Ship =0 ; Type_This_Ship < Ship_Types; ++Type_This_Ship)
+		for (int Type_This_Ship = 0 ; Type_This_Ship < Ship_Types; ++Type_This_Ship)
 		{
 			//Display gameboard for player
 			system("cls");
