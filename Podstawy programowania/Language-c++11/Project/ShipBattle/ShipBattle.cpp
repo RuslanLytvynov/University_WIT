@@ -156,7 +156,7 @@ bool GameOverCheck(int EnemyPlayer)
 	bool winner = true;
 	//Loop through enemy board
 	for (int w = 0; w < Board_Width; ++w){
-			for (int h=0; h<Board_Height; ++h){
+			for (int h = 0; h<Board_Height; ++h){
 				//If any ships remain, game is NOT over
 				if (player[EnemyPlayer].grid[w][h] = Ship_Symb)
 					{
@@ -212,11 +212,11 @@ void LoadShips()
 void ResetBoard()
 {
 	//Loop through each player
-	for (int plyr=1; plyr<3; ++plyr)
+	for (int plyr = 1; plyr < 3; ++plyr)
 	{
 		//For each grid point, set contents to 'water'
-		for (int w=0; w<Board_Width; ++w){
-			for (int h=0; h<Board_Height; ++h){
+		for (int w = 0; w<Board_Width; ++w){
+			for (int h = 0; h<Board_Height; ++h){
 				player[plyr].grid[w][h] = Sea_Point;
 		}}
 		//Loop back to next player
@@ -228,7 +228,7 @@ void DrawBoard(int thisPlayer)
 	cout << "----------------------\n";
 	//Loop through top row (Board_Width) and number columns
 	cout << "   ";
-	for (int w=0; w<Board_Width; ++w) {
+	for (int w = 0; w<Board_Width; ++w) {
 		if (w < 10)
 			//Numbers only 1 character long, add two spaces after
 			cout << w << "  ";
@@ -237,13 +237,13 @@ void DrawBoard(int thisPlayer)
 			cout << w << " ";}
 	cout << "\n";
 	//Loop through each grid point and display to console
-	for (int h=0; h<Board_Height; ++h){
-		for (int w=0; w<Board_Width; ++w){
+	for (int h = 0; h < Board_Height; ++h){
+		for (int w = 0; w < Board_Width; ++w){
 
 			//If this is the FIRST (left) grid point, number the grid first
-			if (w==0) cout << h << " ";
+			if (w == 0) cout << h << " ";
 			//If h was 1 character long, add an extra space to keep numbers lined up
-			if (w<10 && w==0) cout << " ";
+			if (w < 10 && w == 0) cout << " ";
 			//Display contents of this grid (if game isn't running yet, we are placing ships
 			//so display the ships
 			if (gameRunning == false) cout << player[thisPlayer].grid[w][h] << "  ";
