@@ -4,12 +4,12 @@ using namespace std;
 
 const int board_width = 15;
 const int board_height = 10;
-const int ship_types = 5;
+const int ship_types = 5;  //Cruiser Frigate Submarine Escort Battleship
 
-const char isWATER = 247; //ASCII Character Code
-const char isHIT = 'X';
-const char isSHIP = 'S';
-const char isMISS = '0';
+const char isWATER = 250; //ASCII Character Code for game board
+const char isHIT = 'X';  //Symbol for Hitting a Ship
+const char isSHIP = 'S'; // Ship symbol
+const char isMISS = '0'; //Miss symbol
 
 struct POINT {
 	//A location on the grid defined
@@ -34,7 +34,7 @@ struct PLAYER {
 }player[3]; //Ignore player 0, just using player's 1 & 2
 
 enum DIRECTION {HORIZONTAL,VERTICAL};
-struct PLACESHIPS {
+struct PlaceShip {
 	DIRECTION direction;
 	SHIP shipType;
 };
@@ -45,7 +45,7 @@ bool gameRunning = false;
 void LoadShips();
 void ResetBoard();
 void DrawBoard(int);
-PLACESHIPS UserInputShipPlacement();
+PlaceShip UserInputShipPlacement();
 bool UserInputAttack(int&,int&,int);
 bool GameOverCheck(int);
 
@@ -55,7 +55,7 @@ int main()
 	ResetBoard();
 
 	//"PLACE SHIPS" phase of game
-	//Loop through each player...
+	//Loop through each player
 	for (int aplyr=1; aplyr<3; ++aplyr)
 	{
 		//Loop through each ship type to place
@@ -74,7 +74,7 @@ int main()
 			cout << "Where do you want it placed? ";
 
 			//Get input from user and loop until good data is returned
-			PLACESHIPS aShip;
+			PlaceShip aShip;
 			aShip.shipType.onGrid[0].X = -1;
 			while (aShip.shipType.onGrid[0].X == -1)
 			{
@@ -107,7 +107,6 @@ int main()
 	}
 
 	//********* FINISHED WITH "PLACE SHIPS" PHASE *********************************
-	//*****************************************************************************
 
 	//Ready to play the game
 	gameRunning = true;
@@ -180,10 +179,10 @@ bool UserInputAttack(int& x, int& y, int theplayer)
 	return goodInput;
 }
 
-PLACESHIPS UserInputShipPlacement()
+PlaceShip UserInputShipPlacement()
 {
 	int d, x, y;
-	PLACESHIPS tmp;
+	PlaceShip tmp;  //time object
 	//Using this as a bad return
 	tmp.shipType.onGrid[0].X = -1;
 	//Get 3 integers from user
