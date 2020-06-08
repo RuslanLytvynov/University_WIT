@@ -1,22 +1,19 @@
+//Transform
 #include <vector>
 #include <iostream>
 #include <functional>
-
 
 std::vector<int>::const_iterator transform (
   std::vector<int>::const_iterator ConstBegin,
   std::vector<int>::const_iterator ConstEnd,
   std::vector<int>::iterator Begin,
-  std::function<void(int&)> action){
-
-
+  std::function<int(int)> action)
+  {
     while (ConstBegin != ConstEnd) {
-        *Begin++ = action(*ConstBegin++);
+      *Begin++ = action(*ConstBegin++);
     }
     return Begin;
-}
-
-
+  }
 
 int main() {
   const std::vector<int> vector1 {-7, 5, 1, 2, 11};
