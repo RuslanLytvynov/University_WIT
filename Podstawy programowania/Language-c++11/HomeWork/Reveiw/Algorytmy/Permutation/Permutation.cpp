@@ -5,31 +5,15 @@
 #include <ctime>
 
 
-int RandomVector(std::vector<int>& v)
-{
-    int n = v.size();
+std::vector<int> permutation(int a){
+  std::vector<int> v(a);
 
-    srand(time(NULL));
+  auto n = v.size();
+    for (auto i = 0; i < n-1; i++){v[i] = i + 1;}
 
-    int index = rand() % n;
+    std::random_shuffle(v.begin(), v.end());
 
-    int num = v[index];
-
-    std::swap(v[index], v[n - 1]);
-    v.pop_back();
-
-    return num;
-}
-
-std::vector<int> permutation(int n)
-{
-    std::vector<int> v(n);
-
-    for (int i = 0; i < n - 1; i++)
-        v[i] = i + 1;
-
-      while (v.size()) {
-        std::cout << RandomVector(v) << " ";}}
+    return v;}
 
 int main() {
   std::srand(std::time(nullptr));
