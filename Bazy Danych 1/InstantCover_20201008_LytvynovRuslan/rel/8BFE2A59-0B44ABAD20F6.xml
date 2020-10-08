@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" mainViewID="7BC8CD1D-9B9C-7D00-43B7-4FE9E1156CED">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-08 06:14:10 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="InstantCover_20201008_LytvynovRuslan" id="F6746B99-E7BC-1B4B-2ACD-1C1CF92E1789" version="3.5">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-08 06:14:07 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F6746B99-E7BC-1B4B-2ACD-1C1CF92E1789</designId>
+</OSDM_Design>
