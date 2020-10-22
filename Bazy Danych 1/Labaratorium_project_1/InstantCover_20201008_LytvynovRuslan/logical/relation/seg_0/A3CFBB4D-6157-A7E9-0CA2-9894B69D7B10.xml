@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TSKEMP" directorySegmentName="seg_0" id="A3CFBB4D-6157-A7E9-0CA2-9894B69D7B10">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 06:26:00 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<sourcePk>AE1F5665-CADA-7D49-1E2F-D7D59F43F242</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Does the job.</nameOnSource>
+<nameOnTarget>Is assigned to.</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C4DF453-7E07-CA46-5149-C13AEF0374F7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E3A377-0B62-A638-90F1-0EB4FC6713F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

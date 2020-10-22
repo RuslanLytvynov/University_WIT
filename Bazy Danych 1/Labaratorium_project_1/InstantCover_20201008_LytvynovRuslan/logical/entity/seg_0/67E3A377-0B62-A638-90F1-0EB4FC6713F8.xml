@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67E3A377-0B62-A638-90F1-0EB4FC6713F8" name="TASK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-08 07:44:28 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TASK</preferredAbbreviation>
+<shortName>TSK</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ContractNo" id="78F2C1B5-3C10-8C9B-DF3F-B7EAB5702118">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 06:51:45 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoursPerWeek" id="7FA0F6B9-9897-6A36-891D-8476720C90E6">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 06:52:15 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HotelNo" id="CBCCE749-C46D-C0E1-758F-965D59B11FC0">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:04:20 UTC</createdTime>
+<generatorID>87F5009A-4834-0DB2-418A-C771476CE29A</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<referedAttribute>1B1CFE86-E736-61FC-4BBA-5A9561E7541C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nin" id="56DA5B11-0153-B879-911F-FD5EFD21EA5F">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:11:10 UTC</createdTime>
+<generatorID>A3CFBB4D-6157-A7E9-0CA2-9894B69D7B10</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<referedAttribute>EF8848B1-6C52-51B4-D79F-3DADD385AA2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBDD5491-CE94-45DB-B9C7-B076678BF2D2" name="TASK PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:08:07 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78F2C1B5-3C10-8C9B-DF3F-B7EAB5702118</attributeRef>
+<attributeRef>56DA5B11-0153-B879-911F-FD5EFD21EA5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DFA2373A-F224-7CF8-05D7-6C4DD076F00E" containerWithKeyObject="E304F50B-AD2F-2B0B-1305-FFA9FC19CFD0" localFKIndex="342DBF52-8020-C3C6-533F-EEEBA1A89271" name="TASK_CONTRACTS_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:10:01 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<referredTableLongName>CONTRACTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>273701F8-AA28-CFBF-26C3-14E3253C9B87</referredTableID>
+<keyObject>F302F4E8-EE83-A0EB-48FE-EF827AE29733</keyObject>
+<referredKeyID>F302F4E8-EE83-A0EB-48FE-EF827AE29733</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>contractNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

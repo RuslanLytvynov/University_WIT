@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E304F50B-AD2F-2B0B-1305-FFA9FC19CFD0" name="TASK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>67E3A377-0B62-A638-90F1-0EB4FC6713F8</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<abbreviation>TSK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTRACTS_contractNo" id="83BC8FBD-E334-98CC-9EE7-83931C674691">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>78F2C1B5-3C10-8C9B-DF3F-B7EAB5702118</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA2373A-F224-7CF8-05D7-6C4DD076F00E" referredColumn="C08FE1F3-5004-7079-0D71-DC0EEC64AD8B"/>
+</associations>
+</Column>
+<Column name="EMPLOYEES_nin" id="0C265F36-69B1-6395-0259-69E486CFCD8C">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>56DA5B11-0153-B879-911F-FD5EFD21EA5F</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0735FE5B-340F-60B8-78CE-1B8FD50A5407" referredColumn="C625F84B-9D12-0327-4FE4-671230270A6D"/>
+</associations>
+</Column>
+<Column name="hoursPerWeek" id="44C31406-9B28-3C8F-05E2-56E74302D879">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>7FA0F6B9-9897-6A36-891D-8476720C90E6</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="263EE7A3-2D9A-8BE2-F2B3-32A7D757BD93" name="TASK_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>FBDD5491-CE94-45DB-B9C7-B076678BF2D2</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83BC8FBD-E334-98CC-9EE7-83931C674691"/>
+<colUsage columnID="0C265F36-69B1-6395-0259-69E486CFCD8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="375BD1B2-8437-FEC8-02E1-BECFE6052F36" name="TASK_EMPLOYEE_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>A3CFBB4D-6157-A7E9-0CA2-9894B69D7B10</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C265F36-69B1-6395-0259-69E486CFCD8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="342DBF52-8020-C3C6-533F-EEEBA1A89271" name="TASK_CONTRACTS_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:10:01 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83BC8FBD-E334-98CC-9EE7-83931C674691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

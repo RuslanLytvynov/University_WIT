@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A4BF505-CBDA-C27A-F095-5F1B6BA6E43B" name="HOTELS">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>D2C9E7BA-95CB-17D5-9B09-7DA71F5B1DA8</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<ordsAlias>hotel</ordsAlias>
+<abbreviation>HTL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hotelNo" id="982720C3-BD43-38E3-69FC-001D9A64D86D">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>1B1CFE86-E736-61FC-4BBA-5A9561E7541C</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hotelLocation" id="68BF2E90-2CE8-63AB-2710-23D5DF856545">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>D530AE01-0C1F-2D90-CFED-BBF2EBB09611</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6620F1F-8222-FAF7-2702-9D1CAF99978A" name="HOTELS_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>D178C54A-7B07-B620-63FF-51353118F024</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="982720C3-BD43-38E3-69FC-001D9A64D86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

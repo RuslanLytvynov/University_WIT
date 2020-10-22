@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TSKHTL" directorySegmentName="seg_0" id="87F5009A-4834-0DB2-418A-C771476CE29A">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 06:30:14 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="8BFE2A59-AE4F-2BF4-8F72-0B44ABAD20F6" value="true"/>
+</engineerTo>
+<sourcePk>D178C54A-7B07-B620-63FF-51353118F024</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Is a workplace.</nameOnSource>
+<nameOnTarget>Is performed in.</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D2C9E7BA-95CB-17D5-9B09-7DA71F5B1DA8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E3A377-0B62-A638-90F1-0EB4FC6713F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

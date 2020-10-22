@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFF732C2-76DC-BDF2-EBDA-654B8CF74509" name="EMPLOYEE">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>8C4DF453-7E07-CA46-5149-C13AEF0374F7</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<abbreviation>EMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nin" id="C625F84B-9D12-0327-4FE4-671230270A6D">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>EF8848B1-6C52-51B4-D79F-3DADD385AA2F</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eName" id="7C029B6C-783C-4EC6-64A5-9721F7E286AF">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>03601684-B418-73A1-68EC-3673470FB8B6</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3B5FDE5-303F-2A6C-BA88-6C3C20EA5B43" name="EMPLOYEES_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-15 07:25:21 UTC</createdTime>
+<generatorID>AE1F5665-CADA-7D49-1E2F-D7D59F43F242</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C625F84B-9D12-0327-4FE4-671230270A6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

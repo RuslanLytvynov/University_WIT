@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="273701F8-AA28-CFBF-26C3-14E3253C9B87" name="CONTRACTS">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 06:57:50 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contractNo" id="C08FE1F3-5004-7079-0D71-DC0EEC64AD8B">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:00:09 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOTELS_hotelNo" id="78B31898-EE86-6C0F-8FDC-EFA307EF7385">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:00:09 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84EBA688-75D8-EFC1-7FDB-350BD1F702EE" referredColumn="982720C3-BD43-38E3-69FC-001D9A64D86D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F302F4E8-EE83-A0EB-48FE-EF827AE29733" name="CONTRACTS_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:00:09 UTC</createdTime>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C08FE1F3-5004-7079-0D71-DC0EEC64AD8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4809C0A6-43D3-4163-A228-71439160070B" name="CONTRACTS_HOTELS_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-22 07:16:05 UTC</createdTime>
+<generatorID>D178C54A-7B07-B620-63FF-51353118F024</generatorID>
+<ownerDesignName>InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78B31898-EE86-6C0F-8FDC-EFA307EF7385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
