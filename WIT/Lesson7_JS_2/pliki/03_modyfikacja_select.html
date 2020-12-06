@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Przykład 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		// dodaje opcje do listy rozwijalnej
+		function dodajOpcje() {
+			const lista = document.getElementById("lista")
+			const liczbaOpcji = lista.length
+
+			const opcja = document.createElement("option")
+			opcja.text = liczbaOpcji + 1
+			opcja.value = liczbaOpcji + 1
+
+			lista.add(opcja, null)
+		}
+
+		// usuwa opcje z końca listy rozwijalnej
+		function usunOpcje() {
+			const lista = document.getElementById("lista")
+			const liczbaOpcji = lista.length
+
+			if (liczbaOpcji > 0) {
+				lista.remove(liczbaOpcji - 1)
+			}
+		}
+
+		window.onload = function () {
+			document.getElementById('dodaj').onclick = dodajOpcje
+			document.getElementById('usun').onclick = usunOpcje
+		}
+	</script>
+</head>
+
+<body>
+	<form action="/">
+		Lista opcji:
+		<select name="lista" id="lista">
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</select>
+		<input type="button" name="dodaj" id="dodaj" value="Dodaj" />
+		<input type="button" name="usun" id="usun" value="Usuń" />
+	</form>
+</body>
+
+</html>

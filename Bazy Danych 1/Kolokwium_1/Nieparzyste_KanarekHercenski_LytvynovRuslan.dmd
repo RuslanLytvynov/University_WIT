@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nieparzyste_KanarekHercenski_LytvynovRuslan" id="78DB2EF2-2071-5070-E241-DDB6CF953E7D" version="3.5">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 07:01:02 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>78DB2EF2-2071-5070-E241-DDB6CF953E7D</designId>
+</OSDM_Design>

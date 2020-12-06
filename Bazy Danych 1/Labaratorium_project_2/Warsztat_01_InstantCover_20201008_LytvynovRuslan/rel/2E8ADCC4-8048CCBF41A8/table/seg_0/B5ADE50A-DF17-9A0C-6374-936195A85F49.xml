@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5ADE50A-DF17-9A0C-6374-936195A85F49" name="PRACADYP">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>E7D22F24-5A50-191B-8925-5DCD108D5A2E</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<abbreviation>PRD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tematPracy" id="6C25645E-1AF4-B745-8C49-5CB979D2FEA6">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>B4B33A3F-479F-10AE-FDEB-A18EFC544C6C</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_numerAlbumu" id="30F69B6D-0370-53C8-6A86-363611B82A7E">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>9B17DFC3-5A11-E78B-D649-EABC38F37CBF</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7658F6ED-95D3-D747-6800-98BF4A546E58" referredColumn="64B3E1BA-C81B-4C2E-D6A6-680B9EDC433A"/>
+</associations>
+</Column>
+<Column name="celPracy" id="A5A519B8-338B-27B7-85C8-C066A45F5E3A">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>794844FB-0A27-40EC-430B-9F69D52E1D8F</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zakresPracy" id="9C2B3728-6BA8-7DC3-AB7D-5595DA1E6578">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>EED79051-20E1-AD1B-5C0C-39EC75071136</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataEgzaminu" id="9FB7A817-D568-9841-B752-109A87C762D8">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>A2D5B2F1-D4CA-019F-14C4-2456D8224FDD</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godzinaPoczantkuEgzaminu" id="BB42A1B5-25B6-6178-65AB-69675972E87E">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>6B0682DB-600C-6E4A-9722-41F44BD83F14</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEFFE20C-F90D-A295-C23A-A3C85BD6C1FA" name="PRACADYP_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>F07FECB5-1D16-C4C0-E6E9-03B2FB177D1B</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C25645E-1AF4-B745-8C49-5CB979D2FEA6"/>
+<colUsage columnID="30F69B6D-0370-53C8-6A86-363611B82A7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="490CAD47-7C15-6F96-6D1B-236A108C484D" name="PRACADYP_DG_UN">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-12 07:32:42 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB7A817-D568-9841-B752-109A87C762D8"/>
+<colUsage columnID="BB42A1B5-25B6-6178-65AB-69675972E87E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D51B1A-4DA8-EB45-701A-25C6348A4096" name="PRACADYP_STUDENT_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>FE0052C3-8EDB-6087-429E-B37837284407</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30F69B6D-0370-53C8-6A86-363611B82A7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

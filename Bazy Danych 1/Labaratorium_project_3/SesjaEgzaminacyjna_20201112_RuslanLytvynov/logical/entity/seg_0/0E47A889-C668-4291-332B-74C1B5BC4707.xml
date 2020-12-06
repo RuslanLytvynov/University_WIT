@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E47A889-C668-4291-332B-74C1B5BC4707" name="EGZAMIN">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 07:42:29 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EGZ</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="godzinaPoczatku" id="7AF1995F-AD05-6DD4-8DCD-C17811377812">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:04:15 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocena" id="61960BB5-0357-28A0-6E73-02C696AD999E">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:04:37 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerAlbumu" id="5973FE4F-E6E4-9C7E-A971-BD64B987E1F6">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:07:05 UTC</createdTime>
+<generatorID>885FAA26-9667-7D79-0CAF-817EB678330C</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<referedAttribute>3489EA29-9E7A-DA37-4993-7BE3C95E5FDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataEgzaminu" id="5026AAF4-2DEE-DC65-093E-7D37BC00D27E">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:15:40 UTC</createdTime>
+<generatorID>52E5A84F-DEBF-A1CC-5C8A-A8A733757935</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<referedAttribute>741FD721-5486-82C9-E43C-3D5A52AAA74D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerSali" id="C377CFF6-CE42-A155-8CAF-92A736FFD705">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:15:40 UTC</createdTime>
+<generatorID>52E5A84F-DEBF-A1CC-5C8A-A8A733757935</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<referedAttribute>EFDADA9E-020C-68E4-0174-E9234DAAE0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C00B937-CC56-C610-302D-45254AF402B5" name="EGZAMIN PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:15:26 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5973FE4F-E6E4-9C7E-A971-BD64B987E1F6</attributeRef>
+<attributeRef>7AF1995F-AD05-6DD4-8DCD-C17811377812</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D97F65D3-F939-D09F-EB45-EDC76E16F65E" containerWithKeyObject="9474181F-61B9-2640-F400-A2A7E408E906" localFKIndex="7ECA27C6-8648-8FE1-8D1A-C6C52EA6FD11" name="KONKURS_HODOWCA_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>F21FA38D-8AD6-A774-A473-F5DA1FCDA188</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<referredTableLongName>HODOWCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2016DECA-9B24-7CC8-F505-BF66DD67B2FE</referredTableID>
+<keyObject>CC82B852-EC1C-4E98-9EC7-CAA08C88F3CC</keyObject>
+<referredKeyID>CC82B852-EC1C-4E98-9EC7-CAA08C88F3CC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HOD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

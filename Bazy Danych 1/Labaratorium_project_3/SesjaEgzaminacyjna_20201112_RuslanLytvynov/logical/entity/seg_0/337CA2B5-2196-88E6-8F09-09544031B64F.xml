@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="337CA2B5-2196-88E6-8F09-09544031B64F" name="STUDENT">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 07:42:56 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>STD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numerAlbumu" id="3489EA29-9E7A-DA37-4993-7BE3C95E5FDF">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 07:58:24 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwiskoImie" id="61089D6A-33D2-C379-385B-4497A8F26474">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 07:59:02 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E0D0A59-513A-5603-FC15-5360E9EFFB31" name="STUDENT PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:07:03 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3489EA29-9E7A-DA37-4993-7BE3C95E5FDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Przykład 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		function zmienRozmiarProstokata() {
+			const szer = document.getElementById("szer").value
+			const wys = document.getElementById("wys").value
+
+			if (!isNaN(szer) && !isNaN(wys)) {
+				document.getElementById("prostokat").style.width = szer + "px"
+				document.getElementById("prostokat").style.height = wys + "px"
+			}
+		}
+
+		window.onload = function () {
+			document.getElementById('szer').onchange = zmienRozmiarProstokata
+			document.getElementById('wys').onchange = zmienRozmiarProstokata
+		}
+	</script>
+</head>
+
+<body>
+	<form action="/">
+		Rozmiar prostokąta:
+		szerokość = <input type="text" name="szer" id="szer" value="50" /> px
+		wysokość = <input type="text" name="wys" id="wys" value="100" /> px
+		<div id="prostokat" style="background-color: beige; border: 1px solid grey; width: 50px; height: 100px;">&nbsp;</div>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D88D6E1B-DCB3-8768-02BD-63EBA2B1D034" name="NAUCZYCIEL">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-29 08:40:42 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loginNauczuciela" id="18774FC4-90E3-44E7-D210-FCACB8C0B068">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:32:02 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tytułNauczuciela" id="F2614343-B0C0-1BDC-840C-F5C4E6E76F91">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:32:48 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwiskoImie" id="E80AD3B2-4DD8-EBEB-499B-A93F80C612D7">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:33:20 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B02A6AC-7A3C-032F-120F-8954CE1336AB" name="NAUCZYCIEL PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:40:08 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18774FC4-90E3-44E7-D210-FCACB8C0B068</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

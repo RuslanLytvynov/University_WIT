@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="314E2260-F5F9-4C65-152B-E2A2FE96053D" name="OCENA">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>D617C249-4FD0-FB28-9F09-2EDF0D34EA0D</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<abbreviation>OCN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ocena_Kolekcji" id="AD4DDDC9-D498-02F6-5886-280CD00A59FF">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>F0C84EF6-AD32-8C30-4CE6-6AA11B24FD1F</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi" id="46500983-1B2F-A1FD-4F3E-0D6C66D675FE">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>184574C8-811B-BD20-DEDB-438C22B56966</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena_ogólna" id="35E2F685-0247-F3A4-E12E-6215051618EF">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>FE210EC1-7349-2FA0-ED99-641B37E111BF</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTACK_PTK_ID" id="D80F4013-E306-07C4-952D-1DF2E637F71C">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB7CB5F-0ADB-46AD-0F2F-23CFF5F7E170" referredColumn="C6815F3C-91AD-1850-1A42-088DB9731E9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE69E319-0F60-8F12-A9A2-1AF7B67FC277" name="OCENA_PTACK_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>80C3B365-DEB1-FD8B-E4CA-2779FED793FD</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D80F4013-E306-07C4-952D-1DF2E637F71C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

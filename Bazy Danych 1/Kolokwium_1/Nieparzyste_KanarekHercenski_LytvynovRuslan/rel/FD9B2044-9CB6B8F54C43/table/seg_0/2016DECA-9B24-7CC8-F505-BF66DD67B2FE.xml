@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2016DECA-9B24-7CC8-F505-BF66DD67B2FE" name="HODOWCA">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>2A95BA84-4551-0B45-2DA7-C19558ED962F</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<abbreviation>HOD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hodowca" id="70124C66-A543-16F0-18E0-36834D790470">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>AC77D19A-D947-8CC6-C6DA-900C41014DC8</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sygnum_Hodowcy" id="69C98B20-9B14-5852-56E6-F6C0833891C6">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>09CFBEFD-A744-5904-90AD-F4FD12D18001</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOD_ID" id="B9EB5A57-943F-3A28-47F5-CC0E9051867D">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PTACK_PTK_ID" id="1894E140-B48D-F12D-B2B3-E8C84AEB3344">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DA8B4B5-1E0B-98A6-23AD-26139EC3382B" referredColumn="C6815F3C-91AD-1850-1A42-088DB9731E9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC82B852-EC1C-4E98-9EC7-CAA08C88F3CC" name="HOD_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B9EB5A57-943F-3A28-47F5-CC0E9051867D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89F8C2CA-5866-1EC0-E4C9-DAD3CBD469FE" name="HODOWCA_PTACK_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>B3F3110F-9B7F-6CCC-0EFC-0E4CA96F6839</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1894E140-B48D-F12D-B2B3-E8C84AEB3344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

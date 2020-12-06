@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2956CD9A-5379-37A5-4958-EE7F6E52CE64" containerWithKeyObject="69F804FC-9D01-9256-1B3C-D6154743B22E" localFKIndex="78BD41ED-2377-3659-0248-CB7C5987C370" name="ZADANIE_PRACADYP_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>B62D5F98-4B66-7771-6C58-DD753C7ADF60</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<referredTableLongName>PRACADYP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5ADE50A-DF17-9A0C-6374-936195A85F49</referredTableID>
+<keyObject>BEFFE20C-F90D-A295-C23A-A3C85BD6C1FA</keyObject>
+<referredKeyID>BEFFE20C-F90D-A295-C23A-A3C85BD6C1FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tematPracy,STUDENT_numerAlbumu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <title>WIT</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="java-script.js"></script>
+  </head>
+    <body>
+        <section id="pudlo">
+            <header id="naglowek">
+                <div id="naglowek_txt">
+                    Oldtimer Club
+                </div>
+                <div id="naglowek_img">
+                    <img src="LOGO.JPG">
+                </div>
+            </header>
+
+            <nav id="menu">
+                <table>
+                    <tbody><tr>
+                        <td class="gora">
+                        <ul> <!-- onclick="wyswietlAlert()" -->
+                            <li><a id="guzik" href="index.html"><p1>Główna</p1></a></li>
+                            <li><a href="index.html"><p1>Giełda</p1></a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dol">
+                        <ul>
+                        <li><a href="index.html"><p1>Kontakt</p1></a></li>
+                        </ul>
+                    </td>
+                    </tr>
+
+                </tbody></table>
+            </nav>
+
+            <section id="srodek">
+                    <form name="formularz" method="post" action="http://info.wsisiz.edu.pl/~zawadzkp/skrypt.php">
+                        <table>
+                        <tbody><tr>
+                            <td colspan="2" class="srodek">Formularz dodawania zgłoszenia</td>
+
+                        </tr>
+                        <tr>
+                            <td class="prawa">Marka</td>
+                            <td><input type="text" name="marka" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Model</td>
+                            <td><input type="text" name="model" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Rok</td>
+                            <td><input type="text" name="rok" size="4"></td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Silnik</td>
+                            <td><input type="radio" name="silnik" value="benzyna" checked="checked"> Benzyna
+                                <input type="radio" name="silnik" value="diesel"> Diesel</td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Wyposażenie</td>
+                            <td>
+                                <input type="checkbox" name="wyposazenie" value="klima">Klimatyzacja<br>
+                                <input type="checkbox" name="wyposazenie" value="abs">ABS <br>
+                                <input type="checkbox" name="wyposazenie" value="wsp">Wspomaganie kierownicy
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Stan ogólny</td>
+                        <td>
+                            <select name="stan" onchange="return nalicz_3()">
+                                <option value="1">Zły</option>
+                                <option value="2">Średni</option>
+                                <option value="3">Dobry</option>
+                                <option value="4">Bardzo dobry</option>
+                                <option value="5" selected="selected">Idealny</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Opis</td>
+                            <td>
+                            <textarea name="opis" rows="3" cols="30"></textarea>
+                            </td>
+                        </tr><tr>
+                            <td class="prawa">Cena PLN</td>
+                            <td>
+                            <input type="text" name="cena_pln" size="4" value="1000" onchange="return nalicz_3()">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="prawa">Cena stan</td>
+                            <td>
+                            <input type="text" name="cena_stan" size="4">
+                            <input type="button" name="nalicz" value="nalicz" onclick="return nalicz_3()">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="srodek">
+                                <input type="submit" name="wyslij" value="Zatwierdź">
+                                <input type="reset" name="reset" value="Resetuj">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </section>
+        </section>
+
+
+</body></html>

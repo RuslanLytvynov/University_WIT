@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HOD_KON" directorySegmentName="seg_0" id="F21FA38D-8AD6-A774-A473-F5DA1FCDA188">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:34:47 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A95BA84-4551-0B45-2DA7-C19558ED962F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B820696-166D-9DA0-BC21-697B879171F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

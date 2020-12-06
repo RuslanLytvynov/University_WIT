@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9474181F-61B9-2640-F400-A2A7E408E906" name="KONKURS">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>2B820696-166D-9DA0-BC21-697B879171F0</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<abbreviation>KON</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="84AEE852-03A5-7046-A9E6-5FBAA3E0D81D">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>25A79737-0B65-9D94-276E-66E99EC1484A</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejscowość" id="6B768DAD-531D-F1A8-5CF6-6AB2CF85F33B">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>BDFC6102-6744-2781-609C-B85E32654804</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ranga_konkursu" id="7B5DA4A5-C9E5-6DA3-3357-1E53AEB9B555">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>E7F5E54D-FA87-E24C-958A-98608989E041</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HODOWCA_HOD_ID" id="FB44AF45-E652-76AE-850A-4D265603C182">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D97F65D3-F939-D09F-EB45-EDC76E16F65E" referredColumn="B9EB5A57-943F-3A28-47F5-CC0E9051867D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ECA27C6-8648-8FE1-8D1A-C6C52EA6FD11" name="KONKURS_HODOWCA_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>F21FA38D-8AD6-A774-A473-F5DA1FCDA188</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB44AF45-E652-76AE-850A-4D265603C182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="119C7C2C-DAAF-E944-EC16-5073EC9D0504" name="ZADANIE">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-29 08:40:33 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ZAD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loginNauczuciela" id="C9F03CDE-BA61-C39A-437C-55F7E9DE2890">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:40:09 UTC</createdTime>
+<generatorID>1CE645EE-6548-71DF-50C3-57012C8350D6</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<referedAttribute>18774FC4-90E3-44E7-D210-FCACB8C0B068</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tematPracy" id="B74DAD28-659C-55C7-74FD-3BC4FB8E3791">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:51:26 UTC</createdTime>
+<generatorID>B62D5F98-4B66-7771-6C58-DD753C7ADF60</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<referedAttribute>B4B33A3F-479F-10AE-FDEB-A18EFC544C6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerAlbumu" id="374E3EF2-26E0-2DEF-C03E-6CDA9E23F8A2">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:56:44 UTC</createdTime>
+<generatorID>B62D5F98-4B66-7771-6C58-DD753C7ADF60</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<referedAttribute>9B17DFC3-5A11-E78B-D649-EABC38F37CBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funkcja" id="6EAD7D3C-9E19-57D0-1BE4-8974D0740F55">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:38:31 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wystawionaOcena" id="3640FF5D-9F30-D382-4EB2-7F08E457FFFB">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 07:38:59 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="924B043D-3724-3F39-C777-17A4D055D140" name="ZADANIE PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:10:04 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B74DAD28-659C-55C7-74FD-3BC4FB8E3791</attributeRef>
+<attributeRef>374E3EF2-26E0-2DEF-C03E-6CDA9E23F8A2</attributeRef>
+<attributeRef>C9F03CDE-BA61-C39A-437C-55F7E9DE2890</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

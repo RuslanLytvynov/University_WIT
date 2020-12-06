@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B9581347-35C9-1D75-C50C-012D1331854F" mainViewID="6D587D50-FB2E-3EDB-6426-432451ADA36B">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-29 07:18:09 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

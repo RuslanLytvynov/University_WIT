@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F326192-5DBF-7CFD-B75F-03004D3F7323" name="TERMIN">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>8C940225-B2E6-2A35-4AC5-84D6FDD4F7E1</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<abbreviation>TER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataEgzaminu" id="0A09AEF5-37CC-C4DB-E619-C66D6FB58C09">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>741FD721-5486-82C9-E43C-3D5A52AAA74D</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numerSali" id="984AF88E-BA33-92D3-EC48-6318816F66B9">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>EFDADA9E-020C-68E4-0174-E9234DAAE0A6</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokalizacja" id="AC6B0958-E78C-E2E0-2DDA-75C5EBA408A9">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:48:38 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAUCZYCIEL_login" id="63D97D91-0D98-4FEA-2FDC-E1847FD4294C">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>6A7F5DC2-6821-D8B7-75E9-B56E2D9DDDF9</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6078C8D4-98E5-97C5-09C4-FEA7C93B9C90" referredColumn="373EA23F-B420-8FD1-967D-9FD81379B99E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D87E26AF-F589-129E-485E-ADD564DBEFFC" name="TERMIN_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>E238DAD4-363D-7CE7-90DD-60328E273AE2</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A09AEF5-37CC-C4DB-E619-C66D6FB58C09"/>
+<colUsage columnID="984AF88E-BA33-92D3-EC48-6318816F66B9"/>
+<colUsage columnID="AC6B0958-E78C-E2E0-2DDA-75C5EBA408A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0E792C6-4FA5-124F-C242-F72204A81901" name="TERMIN__ND_UN">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 09:09:46 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D97D91-0D98-4FEA-2FDC-E1847FD4294C"/>
+<colUsage columnID="0A09AEF5-37CC-C4DB-E619-C66D6FB58C09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A8422C1-4C65-C763-5872-F63630FCE016" name="TERMIN_NAUCZYCIEL_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>FB50CEFB-CC67-A277-56D6-45A861527655</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D97D91-0D98-4FEA-2FDC-E1847FD4294C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39B3C10B-B6FD-AA23-DF18-3777A7C2E779" name="TERMIN_PRZEDMIOT_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>5A5260AE-909C-DE50-073A-A73D44963294</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

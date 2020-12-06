@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2525409A-453C-DE2C-23EC-9C0442EB4120" name="NAUCZYCIEL">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>D88D6E1B-DCB3-8768-02BD-63EBA2B1D034</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<abbreviation>NAU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="loginNauczuciela" id="2E701A89-0B32-C0FA-08B3-88FE70556C90">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>18774FC4-90E3-44E7-D210-FCACB8C0B068</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tytułNauczuciela" id="1A0BE480-DFBF-C2B9-19D4-E77291A846DD">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>F2614343-B0C0-1BDC-840C-F5C4E6E76F91</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="C5ACFA8D-7A5F-6DF4-72C7-88EF1E517C0B">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>E80AD3B2-4DD8-EBEB-499B-A93F80C612D7</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="7FF07028-9E8C-8443-BFE0-305445FB25F5">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:38:03 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBD294D4-1EE5-FF35-4DA1-8B10776BC35E" name="NAUCZYCIEL_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-05 08:19:52 UTC</createdTime>
+<generatorID>5B02A6AC-7A3C-032F-120F-8954CE1336AB</generatorID>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E701A89-0B32-C0FA-08B3-88FE70556C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

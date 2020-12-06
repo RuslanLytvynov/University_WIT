@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B820696-166D-9DA0-BC21-697B879171F0" name="KONKURS">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:08:05 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>KON</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date" id="25A79737-0B65-9D94-276E-66E99EC1484A">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:08:24 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miejscowość" id="BDFC6102-6744-2781-609C-B85E32654804">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:08:37 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ranga konkursu" id="E7F5E54D-FA87-E24C-958A-98608989E041">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:09:15 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

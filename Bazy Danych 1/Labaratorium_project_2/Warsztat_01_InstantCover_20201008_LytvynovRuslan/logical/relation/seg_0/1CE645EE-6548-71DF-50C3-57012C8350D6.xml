@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NAU_ZAD" directorySegmentName="seg_0" id="1CE645EE-6548-71DF-50C3-57012C8350D6">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-29 08:42:58 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<sourcePk>5B02A6AC-7A3C-032F-120F-8954CE1336AB</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Wykonuje</nameOnSource>
+<nameOnTarget>Przydzielone</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D88D6E1B-DCB3-8768-02BD-63EBA2B1D034</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>119C7C2C-DAAF-E944-EC16-5073EC9D0504</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

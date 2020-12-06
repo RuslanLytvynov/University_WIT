@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZAD_PRD" directorySegmentName="seg_0" id="B62D5F98-4B66-7771-6C58-DD753C7ADF60">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-10-29 08:44:07 UTC</createdTime>
+<ownerDesignName>Warsztat_01_InstantCover_20201008_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="2E8ADCC4-799F-1C76-3470-8048CCBF41A8" value="true"/>
+</engineerTo>
+<sourcePk>F07FECB5-1D16-C4C0-E6E9-03B2FB177D1B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Generuje</nameOnSource>
+<nameOnTarget>Dotyczy</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7D22F24-5A50-191B-8925-5DCD108D5A2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>119C7C2C-DAAF-E944-EC16-5073EC9D0504</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

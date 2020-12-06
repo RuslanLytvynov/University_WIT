@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>KALKULATOR</title>
+        <meta name="description" content="Interaktywny poradnik szybkiego startu dla Brackets.">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript">
+        function waliduj()
+        {
+         var wartosc = document.forms.formularz.wyraz1.value;
+         var wartosc2 = document.forms.formularz.wyraz2.value;
+         if(wartosc == "") {
+         alert("Pole pierwsze musi być wypelnione!");
+         return false;
+        }
+        if(isNaN(wartosc))
+        {
+        alert("Pole pierwsze musi być liczbą.");
+        return false;
+        }
+        return true;
+        }
+        if(isNaN(wartosc2))
+        {
+        alert("Pole drugie musi być liczbą.");
+        return false;
+        }
+        return true;
+        }
+        </script>
+    <link rel="prefetch"></head>
+    <body>
+    <form id="formularz">
+        <input type="text" size="10" name="wyraz1">
+        <select name="lista">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+            <option value="5">%</option>
+        </select>
+        <input type="text" size="10" name="wyraz2">
+        =
+        <input type="text" size="10" name="wynik" value="wynik">
+        <input type="button" name="licz" value="Licz" onclick="return waliduj()">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url("tlo_strony.gif");
+}
+
+body{
+    width: 1024px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    padding: 10px;
+}
+.top{
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 0 100px 10px;
+    width: 100%;
+    background: url("naglowek.jpg");
+    background-repeat: no-repeat;
+    background-size: 1024px auto;
+}
+.menu{
+    background-color: #f9d879;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 5px;
+    padding: 10px 15px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #e03b66;
+    font-family: Verdana;
+    font-size: 11px;
+}
+main{
+    display: flex;
+}
+main .mainsl{
+    background-color: #f4d7ad;
+    margin-left: 60px;
+}
+main .mainsl h1{
+    padding: 10px 50px 15px 10px;
+    color: #fff;
+}
+main .mainsl p{
+    padding: 10px;
+    font-family: verdana;
+    font-size: 10px;
+    color: #e03b66;
+}
+span{
+    font-weight: bold;
+}
+main .mcontent {
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    margin-bottom: 100px;
+}
+main .mcontenttable{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+main .mcontenttable tr{
+    background-color: #f4d7ad;
+}
+main .mcontenttable input[type=text]{
+    margin-right: 20px;
+    width: 70%;
+}
+main .mcontenttable input[type=submit]{
+    margin-left: 120px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #f9d879;
+    text-align: end;
+}
+footer h3{
+    padding: 10px;
+    color: #e03b66;
+}

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DA8B4B5-1E0B-98A6-23AD-26139EC3382B" containerWithKeyObject="2016DECA-9B24-7CC8-F505-BF66DD67B2FE" localFKIndex="89F8C2CA-5866-1EC0-E4C9-DAD3CBD469FE" name="HODOWCA_PTACK_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:38:26 UTC</createdTime>
+<generatorID>B3F3110F-9B7F-6CCC-0EFC-0E4CA96F6839</generatorID>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<referredTableLongName>PTACK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>694A57D4-AEDE-3AAE-25B3-66A3D29C233C</referredTableID>
+<keyObject>33A6EF53-9581-BD3C-E7B2-AB8934AC8183</keyObject>
+<referredKeyID>33A6EF53-9581-BD3C-E7B2-AB8934AC8183</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PTK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

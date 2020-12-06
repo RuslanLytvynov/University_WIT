@@ -1,0 +1,124 @@
+<html><head>
+        <meta charset="utf-8">
+        <title>KALKULATOR</title>
+        <meta name="description" content="Interaktywny poradnik szybkiego startu dla Brackets.">
+        <script type="text/javascript">
+        function waliduj()
+        {
+         var wartosc1 = document.forms.formularz.wyraz1.value;
+         var wartosc2 = document.forms.formularz.wyraz2.value;
+         if(wartosc1 == "" || wartosc2=="") {
+         alert("Pola muszą być wypelnione!");
+         return false;
+        }
+        if(isNaN(wartosc1) && isNaN(wartosc2)) {
+         alert("Obydwa pola muszą być liczbą!");
+         return false;
+        }
+        if(isNaN(wartosc1))
+        {
+        alert("Pole pierwsze musi być liczbą.");
+        return false;
+        }
+
+        if(isNaN(wartosc2)) {
+        alert("Pole drugie musi być liczbą.");
+        return false;
+        }
+            return true;
+        }
+
+        function dodaj()
+        {
+         var wartosc1 = document.forms.formularz.wyraz1.value;
+         var wartosc2 = document.forms.formularz.wyraz2.value;
+         var wynik;
+          switch(document.forms.formularz.lista.value) {
+            case "1": wynik = wartosc1*1+wartosc2*1; break;
+             case "2": wynik = wartosc1*1-wartosc2*1; break;
+             case "3": wynik = (wartosc1*1)*(wartosc2*1); break;
+             case "4": wynik = (wartosc1*1)/(wartosc2*1); break;
+             case "5": wynik = (wartosc1*1)%(wartosc2*1); break;
+             }
+
+         document.forms.formularz.wynik.value=wynik;
+        }
+
+        //formularz2
+            //var field = document.getElementById('formularz').poleTekstowe.value;
+        function waliduj2()
+        {
+         var wartosc1 = document.forms.formularz2.wyraz1.value;
+         var wartosc2 = document.forms.formularz2.wyraz2.value;
+         if(wartosc1 == "" || wartosc2=="") {
+         alert("Pola muszą być wypelnione!");
+         return false;
+        }
+
+        if(isNaN(wartosc1))
+        {
+        alert("Pole pierwsze musi być liczbą.");
+        return false;
+        }
+
+        if(isNaN(wartosc2)) {
+        alert("Pole drugie musi być liczbą.");
+        return false;
+            }
+        return true;
+        }
+
+        function dodaj2()
+        {
+         var wartosc1 = document.forms.formularz2.wyraz1.value;
+         var wartosc2 = document.forms.formularz2.wyraz2.value;
+         var wynik;
+          switch(document.forms.formularz2.lista.value) {
+            case "1": wynik = wartosc1*1+wartosc2*1; break;
+             case "2": wynik = wartosc1*1-wartosc2*1; break;
+             case "3": wynik = (wartosc1*1)*(wartosc2*1); break;
+             case "4": wynik = (wartosc1*1)/(wartosc2*1); break;
+             case "5": wynik = ((wartosc1*1)/(wartosc2*1))*100; break;
+             }
+
+         document.forms.formularz2.wynik2.value=wynik;
+        }
+
+
+        </script>
+    </head>
+    <body>
+    <form id="formularz">
+        <input type="text" size="10" name="wyraz1" onchange="return dodaj()">
+        <select name="lista" onchange="return dodaj()">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+            <option value="5">%</option>
+        </select>
+        <input type="text" size="10" name="wyraz2" onchange="return dodaj()">
+        =
+        <input type="text" size="10" name="wynik" value="00" readonly="readonly">
+        <input type="button" name="licz" value="Licz" onclick="return waliduj()" ondblclick="return dodaj()">
+    </form>
+
+         <form id="formularz2" name="b">
+        <input type="text" size="10" name="wyraz1" onchange="return dodaj2()">
+        <select name="lista">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+            <option value="5">%</option>
+        </select>
+        <input type="text" size="10" name="wyraz2" onchange="return dodaj2()">
+        =
+        <input type="number" size="10" name="wynik2" value="000" readonly="readonly">
+        <input type="button" name="licz" value="Licz" onclick="return waliduj()" ondblclick="return dodaj2()">
+    </form>
+
+
+
+
+</body></html>

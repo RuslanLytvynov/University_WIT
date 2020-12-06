@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09C03D09-64B2-19BE-4301-BCEF9BB0A4B7" name="STUDENT">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>337CA2B5-2196-88E6-8F09-09544031B64F</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<abbreviation>STD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numerAlbumu" id="D6E83221-8F45-6B20-B92C-283E2955AB16">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>3489EA29-9E7A-DA37-4993-7BE3C95E5FDF</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="1DEA3B70-2DEA-48AA-8075-5D7C3BD5A3D3">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>61089D6A-33D2-C379-385B-4497A8F26474</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="21C2EEB9-1F74-8060-3319-9FC314E7DB77">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:47:25 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="212F2491-1EC0-D6A1-C420-239BD730B2A4" name="STUDENT_PK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>1E0D0A59-513A-5603-FC15-5360E9EFFB31</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E83221-8F45-6B20-B92C-283E2955AB16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

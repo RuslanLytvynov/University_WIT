@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SesjaEgzaminacyjna_20201112_RuslanLytvynov" id="824418EC-9760-1324-3528-C99F4667EE35" version="3.5">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-12 08:06:43 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>824418EC-9760-1324-3528-C99F4667EE35</designId>
+</OSDM_Design>

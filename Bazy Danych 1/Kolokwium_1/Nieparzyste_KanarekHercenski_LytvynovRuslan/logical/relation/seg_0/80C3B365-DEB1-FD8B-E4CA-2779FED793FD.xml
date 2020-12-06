@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PTK_OCE" directorySegmentName="seg_0" id="80C3B365-DEB1-FD8B-E4CA-2779FED793FD">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-26 08:35:12 UTC</createdTime>
+<ownerDesignName>Nieparzyste_KanarekHercenski_LytvynovRuslan</ownerDesignName>
+<engineerTo>
+<item key="FD9B2044-1BDF-B84A-6320-9CB6B8F54C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5A79916-2D16-1E8D-1BCE-6251C8867C8F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D617C249-4FD0-FB28-9F09-2EDF0D34EA0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

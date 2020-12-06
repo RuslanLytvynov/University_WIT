@@ -1,0 +1,44 @@
+.list{
+  color:#e03b66;
+  font-family: 'Verdana'; font-size: 12px;
+}
+
+.content{
+    color:#333;
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #E6E6E6;
+    padding: 5px;
+}
+
+.stopka{
+    background-color: #f9d879;
+    text-align: right;
+    font-family: 'Verdana'; font-size: 11px;
+    color:#e03b66;
+    padding: 5px;
+    margin-top: 430px;
+}
+
+.stopka_up{
+    background-color: #f9d879;
+    text-align: left;
+    font-family: 'Verdana'; font-size: 11px;
+    color:#e03b66;
+    padding: 5px;
+}
+
+.text-center{
+  margin-top: 200px;
+  background-color: white;
+  font-family: "Trebuchet MS"; font-size: 11px;
+}
+
+#img{
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-image: url("tlo_strony.gif");
+}

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="705654B1-1F3F-C761-50E3-EE332C929973" containerWithKeyObject="ECD06CF9-B1E3-C295-804A-6C8E1BE56D29" localFKIndex="DBF79754-0F54-C3B3-9AE1-823DFFE59644" name="EGZAMIN_STUDENT_FK">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 08:40:20 UTC</createdTime>
+<generatorID>885FAA26-9667-7D79-0CAF-817EB678330C</generatorID>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<referredTableLongName>STUDENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09C03D09-64B2-19BE-4301-BCEF9BB0A4B7</referredTableID>
+<keyObject>212F2491-1EC0-D6A1-C420-239BD730B2A4</keyObject>
+<referredKeyID>212F2491-1EC0-D6A1-C420-239BD730B2A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numerAlbumu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

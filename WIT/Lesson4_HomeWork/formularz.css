@@ -1,0 +1,55 @@
+body{
+    background-color: #FFFFB3;
+}
+#case{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    background-color: green;
+    font-size: 80px;
+    min-height: 150px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+img{
+    float: right;
+    vertical-align: top;
+}
+#menu {
+    width: 100px;
+    min-height: 530px;
+    background-color: green;
+    float: left;
+    text-align: center;
+    padding: 3px;
+    padding-bottom: 15px;
+}
+#middle {
+    min-height: 550px;
+    background-color: #FFFFCC;
+    margin-top: 1px;
+}
+a{
+    display: table;
+    width: 90%;
+    padding: 5px;
+    background-color: #FFFFCC;
+    color: black;
+    font-size: 20px;
+}
+tr,td{
+    background-color: green;
+    width: 200px;
+}
+table{
+    padding: 50px;
+    margin: 0 auto;
+}
+#button{
+    margin-left: 75px;
+    width: 100px;
+}
+#contact{
+    margin-top: 350px;
+}

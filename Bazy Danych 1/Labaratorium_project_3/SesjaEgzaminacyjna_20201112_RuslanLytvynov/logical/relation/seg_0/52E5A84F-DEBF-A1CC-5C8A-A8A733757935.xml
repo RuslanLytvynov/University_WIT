@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EGZ_TRM" directorySegmentName="seg_0" id="52E5A84F-DEBF-A1CC-5C8A-A8A733757935">
+<createdBy>lytvy</createdBy>
+<createdTime>2020-11-19 07:47:29 UTC</createdTime>
+<ownerDesignName>SesjaEgzaminacyjna_20201112_RuslanLytvynov</ownerDesignName>
+<engineerTo>
+<item key="752B57C7-CE91-BF1B-9D9C-1E0E5308C119" value="true"/>
+</engineerTo>
+<sourcePk>E238DAD4-363D-7CE7-90DD-60328E273AE2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Umożliwia</nameOnSource>
+<nameOnTarget>Przeprowadzony w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C940225-B2E6-2A35-4AC5-84D6FDD4F7E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E47A889-C668-4291-332B-74C1B5BC4707</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
