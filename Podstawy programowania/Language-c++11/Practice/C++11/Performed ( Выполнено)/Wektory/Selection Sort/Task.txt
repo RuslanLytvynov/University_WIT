@@ -1,7 +1,0 @@
-5.2.5 Selection Sort: Sortowanie przez wybór - bitcoin
-Sortowanie wektora w kolejności niemalejącej przez wybór przebiega następująco. Znajdujemy w wektorze
-pierwszy element najmniejszy i zamieniamy go z pierwszym elementem wektora. Następnie powtarzamy
-te czynności dla wektora bez pierwszego elementu i tak dalej. Napisz program selection_sort, który
-czyta ze standardowego wejścia liczby całkowite do napotkania końca pliku i sortuje je niemalejąco przez
-wybór. Program wypisuje na standardowe wyjście w kolejnych liniach sortowane liczby po każdej zamianie.
-Program załącza tylko pliki nagłówkowe iostream i vector.
